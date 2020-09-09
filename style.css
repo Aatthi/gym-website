@@ -8,18 +8,29 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 200px;
+	background: rgba(41, 238, 41, 0.831);
+}
+
+.contact-banner p {
+	margin: 0 30px;
 }
 
 .contact-info {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 12px 0 0 0;
 }
 
 .social-media {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.social-media img {
+	margin: 0 40px;
 }
 
 .header-wrapper {
