@@ -4,14 +4,32 @@
 	box-sizing: border-box;
 }
 
+.contact-banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contact-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .header-wrapper {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	align-items: center;
 	padding: 10px 60px;
-	border: 1px solid red;
-	background: rgba(0, 0, 0, 0.808);
+
+	background: rgba(0, 0, 0, 0.904);
 }
 
 .header-wrapper h2 {
@@ -34,6 +52,7 @@
 .header-navbar li {
 	margin: 0 40px;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -44,8 +63,11 @@
 	border: 2px solid rgba(118, 245, 118, 0.808);
 	border-radius: 20px;
 	padding: 10px 20px;
+
+	font-family: 'Lexend Peta', sans-serif;
 }
 
 .logo .fitness {
 	font-size: 30px;
+	margin-top: -13px;
 }
