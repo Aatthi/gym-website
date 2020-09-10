@@ -39,8 +39,8 @@
 	width: 100%;
 	align-items: center;
 	padding: 10px 60px;
-
 	background: rgba(0, 0, 0, 0.904);
+	padding-bottom: 500px;
 }
 
 .header-wrapper h2 {
