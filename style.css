@@ -110,6 +110,15 @@
 	margin-top: -13px;
 }
 
+.carousel-wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.d-block img {
+	height: 100px;
+}
+
 @media (max-width: 1280px) {
 	.contact-banner {
 		display: flex;
