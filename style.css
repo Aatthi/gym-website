@@ -161,7 +161,7 @@ html {
 	width: 60%;
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
-	grid-gap: 20px;
+	grid-gap: 50px;
 }
 
 .membership-yearly {
@@ -171,6 +171,21 @@ html {
 	align-items: center;
 
 	text-align: center;
+}
+
+.membership-yearly:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.membership-offpeak:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.membership-weekends:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
 }
 
 .membership-offpeak {
