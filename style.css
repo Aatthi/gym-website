@@ -34,13 +34,21 @@
 }
 
 .header-wrapper {
+	height: 655px;
+	background-image: url(Images/background-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header-nav {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	width: 100%;
 	align-items: center;
 	padding: 10px 60px;
-	background: rgba(0, 0, 0, 0.904);
-	padding-bottom: 500px;
+	background: rgba(0, 0, 0, 0.6);
 }
 
 .header-wrapper h2 {
@@ -58,6 +66,7 @@
 	display: flex;
 	list-style: none;
 	justify-content: center;
+	padding: 30px 0;
 }
 
 .header-navbar li {
@@ -81,4 +90,35 @@
 .logo .fitness {
 	font-size: 30px;
 	margin-top: -13px;
+}
+
+@media (max-width: 1300px) {
+	.contact-banner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+		background: blue(41, 238, 41, 0.831);
+	}
+
+	.contact-banner p {
+		margin: 0 30px;
+	}
+
+	.contact-info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 0 5px 0;
+	}
+
+	.social-media {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.social-media img {
+		margin: 0 30px;
+	}
 }
