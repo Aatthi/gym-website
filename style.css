@@ -156,6 +156,7 @@ html {
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .our-team-wrapper {
@@ -172,8 +173,41 @@ html {
 	padding: 20px 50px;
 }
 
+.classes-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.personal-training-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* background: rgba(0, 0, 0, 0.1); */
+	color: black;
+}
+
+.group-classes-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* background: rgba(0, 0, 0, 0.1); */
+	color: black;
+}
+
+.classes-container h1 {
+	margin: 0 100px;
+}
+
 .main-wrapper {
-	margin: 50px 0;
+	margin: 50px 0 100px;
 	text-align: center;
 }
 
