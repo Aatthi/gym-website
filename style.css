@@ -119,6 +119,7 @@ html {
 	justify-content: space-evenly;
 	align-items: center;
 	background: rgba(209, 209, 209, 0.705);
+	text-align: center;
 }
 
 .feature-wrapper h2 {
@@ -137,6 +138,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0 20px 0 0;
 }
 
 .feature-wrapper img {
@@ -153,24 +155,25 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .our-team-wrapper {
-	margin: 100px 0;
+	margin: 100px;
 }
 
 .our-team img {
 	border-radius: 50%;
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 }
 
-.our-team p {
-	padding: 20px 50px;
+.our-team-bio {
+	width: 50%;
+	margin: 0 50px;
 }
 
 .classes-container {
@@ -403,6 +406,35 @@ html {
 	text-decoration: none;
 }
 
+@media (max-width: 1527px) {
+	.contact-banner {
+		padding: 0 100px;
+		background: rgba(41, 238, 41, 0.831);
+	}
+
+	/* .contact-banner p {
+		margin: 0 30px;
+	}
+
+	.contact-info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 0 5px 0;
+	}
+
+	.social-media {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 0 5px 0;
+	}
+
+	.social-media img {
+		margin: 0 40px;
+	} */
+}
+
 @media (max-width: 1280px) {
 	.contact-banner {
 		display: flex;
@@ -434,6 +466,15 @@ html {
 	}
 }
 
+@media (max-width: 1127px) {
+	.contact-banner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
 @media (max-width: 1450px) {
 	.personal-training-container img {
 		height: 400px;
@@ -459,6 +500,62 @@ html {
 
 	.group-classes-container h1 {
 		font-size: 30px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.our-team img {
+		width: 300px;
+		height: 300px;
+	}
+
+	.our-team-bio {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1081px) {
+	.header-nav {
+		font-size: 12px;
+		padding: 10px 20px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 947px) {
+	.contact-banner p {
+		margin: 0 10px;
+	}
+
+	.contact-info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 2px;
+	}
+}
+
+@media (max-width: 900px) {
+	.our-team {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.our-team-bio {
+		margin: 50px;
+		width: 100%;
+	}
+
+	.our-team-wrapper {
+		margin: 100px 10px;
+	}
+}
+
+@media (max-width: 900px) {
+	.contact-info {
+		display: none;
 	}
 }
 
@@ -502,6 +599,19 @@ html {
 	.personal-training-container h1 {
 		display: none;
 	}
+
+	.feature-wrapper h2 {
+		display: none;
+	}
+
+	.feature-wrapper img {
+		margin: 20px 0;
+	}
+}
+@media (max-width: 670px) {
+	.header-navbar li {
+		margin: 0 10px;
+	}
 }
 
 @media (max-width: 590px) {
@@ -511,5 +621,15 @@ html {
 
 	.group-classes-container img {
 		width: 100%;
+	}
+}
+
+@media (max-width: 490px) {
+	.header-navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: 15px;
 	}
 }
