@@ -193,6 +193,22 @@ html {
 	color: black;
 }
 
+.personal-training-container img {
+	width: 50%;
+}
+
+.personal-training-container h1 {
+	width: 50%;
+}
+
+.group-classes-container img {
+	width: 50%;
+}
+
+.group-classes-container h1 {
+	width: 50%;
+}
+
 .group-classes-container {
 	display: flex;
 	justify-content: space-between;
@@ -415,5 +431,85 @@ html {
 
 	.social-media img {
 		margin: 0 30px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.personal-training-container img {
+		height: 400px;
+	}
+
+	.group-classes-container img {
+		height: 400px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.personal-training-container img {
+		height: 400px;
+	}
+
+	.personal-training-container h1 {
+		font-size: 30px;
+	}
+
+	.group-classes-container img {
+		height: 400px;
+	}
+
+	.group-classes-container h1 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.personal-training-container img {
+		height: 300px;
+	}
+
+	.group-classes-container img {
+		height: 300px;
+	}
+}
+
+@media (max-width: 730px) {
+	.personal-training-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.group-classes-container img {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.group-classes-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.personal-training-container img {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.group-classes-container h1 {
+		display: none;
+	}
+
+	.personal-training-container h1 {
+		display: none;
+	}
+}
+
+@media (max-width: 590px) {
+	.personal-training-container img {
+		width: 100%;
+	}
+
+	.group-classes-container img {
+		width: 100%;
 	}
 }
