@@ -149,8 +149,36 @@ html {
 	align-items: center;
 }
 
+.our-team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.our-team-wrapper {
+	margin: 100px 0;
+}
+
+.our-team img {
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+}
+
+.our-team p {
+	padding: 20px 50px;
+}
+
 .main-wrapper {
 	margin: 50px 0;
+	text-align: center;
+}
+
+.main-wrapper h1 {
+	margin: 150px 0 70px 0;
 }
 
 .mebership-packages-wrapper {
@@ -230,6 +258,10 @@ html {
 	border-bottom-right-radius: 20px;
 }
 
+.row3 p {
+	font-size: 10px;
+}
+
 .mebership-packages-wrapper button {
 	background: black;
 	color: white;
@@ -244,6 +276,81 @@ html {
 	background: white;
 	color: black;
 	transition: 0.2s;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	background: rgba(0, 0, 0, 0.85);
+	padding: 30px 0;
+}
+
+.footer h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.Information {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.our-gym {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.Hours {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+	color: white;
+}
+
+.Hours span {
+	font-weight: 800;
+	margin-right: 5px;
+	color: white;
+}
+
+.Store {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	justify-content: flex-start;
+	color: white;
+}
+
+.Store span {
+	font-weight: 800;
+	margin-right: 5px;
+	color: white;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+}
+
+.header a:visited {
+	color: white;
+	text-decoration: none;
 }
 
 @media (max-width: 1280px) {
